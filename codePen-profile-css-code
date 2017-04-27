@@ -1,0 +1,174 @@
+:root {
+  --scrollBarWidth: 15px;
+}
+::-webkit-scrollbar {
+  width: var(--scrollBarWidth);
+}
+
+/* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+  background-color: #ff6c00;
+}
+
+
+/* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff009f;
+  border-radius: 10px;
+}
+
+
+/* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+  background-color: #0073ff;
+}
+
+
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+  background-color: #0073ff;
+}
+
+body {
+  scrollbar-face-color: rgb(255, 0, 255);
+  padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+}
+
+.profile-header {
+  background: #5400ff url(https://s-media-cache-ak0.pinimg.com/originals/27/22/d0/2722d0c6524bc3c7706cc38ac627b710.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.profile-username {
+  background-color: #f291c3;
+  color: #5400ff;
+}
+
+h1 {
+  background-color: #f291c3;
+  color: #5400ff;
+}
+
+.profile-links a[href*="https://github.com/Catlinker"]:after {
+  content: '(Github)';
+}
+
+.profile-nav-2 {
+  background-color: #5400ff;
+  color: #f291c3;
+  border-radius: 3px;
+  border: 10px;
+}
+
+.profile-nav-2 a {
+  background-color: #5400ff;
+  color: #f291c3;
+}
+
+.active {
+  color: #f3460c;
+}
+
+body {
+  background-color: #3333cc;
+  background: -webkit-linear-gradient(#3333cc, #000);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3333cc, #000);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3333cc, #000);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3333cc, #000);
+  /* Standard syntax */
+  background-repeat: no-repeat;
+}
+
+html {
+  background-color: #000;
+}
+
+.promo-footer {
+  background: #000 url(http://2.bp.blogspot.com/-vsHkL6SfFFk/UCH4gARjyBI/AAAAAAAAKqs/jOrIe6O3-qQ/s640/SleepingMario.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+::-moz-selection {
+  background: pink;
+  color: #5400ff;
+}
+
+::selection {
+  background: pink;
+  color: #5400ff;
+}
+.flex-grid-quarters {
+  visibility: hidden;
+}
+.profile-avatar {
+  border-radius: 50%;
+}
+
+input[type=text],input[type=search]:focus, textarea {
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus,input[type=search]:focus, textarea:focus {
+  -moz-box-shadow: 0 0 5px #51cbee;
+  -webkit-box-shadow: 0 0 5px #51cbee;
+  box-shadow: 0 0 5px #51cbee;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #51cbee;
+}
+input[type=text],input[type=search]:focus, textarea {
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  outline: none;
+  padding: 3px 3px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+   width: 60px;
+}
+input[type=text]:focus,input[type=search]:focus, textarea:focus {
+  -moz-box-shadow: 0 0 20px #51cbee;
+  -webkit-box-shadow: 0 0 20px #51cbee;
+  box-shadow: 0 0 20px #51cbee;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #000;
+   width: 250px;
+}
+textarea {
+   height: 20px;
+}
+textarea:focus {
+   height: 100px;
+}
+.link-footer {
+   background: #000 url("https://r.mprd.se/media/images/46505-New_Super_Mario_Bros._(U)(Psyfer)-3.jpg");
+   background-size: 100% 650px;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 650px;
+}
+.link-footer-links {
+   background-color: #5400ff;
+}
